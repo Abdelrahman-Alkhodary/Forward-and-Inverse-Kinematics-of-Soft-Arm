@@ -14,3 +14,5 @@ The inverse model is also a fully connected neural network with three inputs, on
 
 To test the iverse and forward models together, we tested it firstly by inserting the tip position to the inverse model to infer the tensions, then the output of the inverse model is then used as input to forward model and compare the output of the FK model with truth value. The mean absolute error of the output is (4.1383, 3.3612, 3.3428) in cm with standard deviation (2.5764, 2.2733, 2.1268). The error of the two models together is slightly higer than the forward model alone as the error in the inverse model is affecting the results. 
 
+
+Conv3D_IK_300_0-1_trained.ipynb train the model of the shape of the arm with the file model300_wBN_DrBerkeCode_80KS_0-1.pt is the weights of the model
